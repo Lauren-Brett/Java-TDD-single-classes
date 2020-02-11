@@ -1,15 +1,18 @@
 public class Printer {
 
     private Integer paper;
+    //CANT ACCESS OUTSIDE OF THIS CLASS, ENCAPSULATION
 
 
 
     public Printer() {
         this.paper = 20;
+
     }
 
     public Integer paperInPrinter() {
         return this.paper;
+        //getPaper GETTER - SET UP GETTERS
     }
 
     public boolean enough_paper(Integer numPages, Integer numCopies) {

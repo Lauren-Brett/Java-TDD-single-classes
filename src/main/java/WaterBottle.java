@@ -9,18 +9,20 @@ public class WaterBottle {
 /// test volume
     public int bottleVolume() {
          return this.volume;
+         //getVolume
     }
 
     public void drinkFromBottle() {
         this.volume -= 10;
-        //void does, not return
+        //void does, not return, just action, nothing returned
     }
 
-    public int emptyBottle() {
-        if (this.volume == 0) {
-            return 0;
-        }
-        return 0;
+    public void emptyBottle() {
+//        if (this.volume == 0) {
+//            return 0;
+//        }
+//        return 0;
+        this.volume = 0;
     }
 
     public int fillBottle() {

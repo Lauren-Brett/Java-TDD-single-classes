@@ -22,11 +22,15 @@ public class WaterBottleTest {
         bottle.drinkFromBottle();
         bottle.drinkFromBottle();
         assertEquals(80, bottle.bottleVolume());
+        //this is good, call the bottleVolume no the drinkFB method on bottle
     }
 
     @Test
     public void empty_water_bottle() {
-        assertEquals(0, bottle.emptyBottle());
+        //empty
+        bottle.emptyBottle();
+        //call volume
+        assertEquals(0, bottle.bottleVolume());
     }
 
     @Test

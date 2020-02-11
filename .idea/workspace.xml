@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87857a94-067d-4cc6-97dd-371ba915f2f4" name="Default Changelist" comment="" />
+    <list default="true" id="87857a94-067d-4cc6-97dd-371ba915f2f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WaterBottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterBottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrinterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WaterBottleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WaterBottleTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,7 +35,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xcd4PivQODB0RexhTx9WEHWK70" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
@@ -39,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in wk11_single_classes_java_tdd">
+  <component name="RunManager" selected="JUnit.WaterBottleTest.empty_water_bottle">
     <configuration name="All in wk11_single_classes_java_tdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wk11_single_classes_java_tdd" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,16 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrinterTest.enough_pages_to_print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wk11_single_classes_java_tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
-      <option name="METHOD_NAME" value="enough_pages_to_print" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrinterTest.print_out_all_pages_if_enough_paper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wk11_single_classes_java_tdd" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,13 +90,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaterBottleTest.empty_water_bottle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wk11_single_classes_java_tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
+      <option name="METHOD_NAME" value="empty_water_bottle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WaterBottleTest.empty_water_bottle" />
         <item itemvalue="JUnit.All in wk11_single_classes_java_tdd" />
         <item itemvalue="JUnit.PrinterTest.print_out_all_pages_if_enough_paper" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.PrinterTest.check_if_enough_pages_to_print_true" />
-        <item itemvalue="JUnit.PrinterTest.enough_pages_to_print" />
       </list>
     </recent_temporary>
   </component>
@@ -109,5 +122,16 @@
       <updated>1581349124142</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

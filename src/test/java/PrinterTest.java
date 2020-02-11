@@ -11,6 +11,7 @@ public class PrinterTest {
     @Before
     public void before() {
         printer = new Printer();
+       // setUp() new Printer(20)
     }
 
     @Test
